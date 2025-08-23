@@ -13,7 +13,7 @@ int main() {
 
    //this i is called iterator or counter as it keeps track of whats going on and till what has the count reached.
    //here instead of i =i + 1 we can also write i++. this shortcut  is only applicable for i +1 and not i + 2 or so on. 
-    for (int i = 1; i <= 5  ; i = i + 1)
+    for (int i = 1; i <= 5  ; i++)
     {
        printf("Hello World \n");
     }

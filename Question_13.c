@@ -1,10 +1,16 @@
-//Print numbers from 0 to 10
+//print number from zero to n where n is given by user.
 
 #include<stdio.h>
 int main() {
+int n;
+printf("Enter number :");
 
-    for (int i = 0; i <= 10; i = i + 1) {
 
-        printf("%d\n", i);
-    }
+scanf("%d", &n);
+printf("The numbers are :\n");
+for (int i = 0; i < n; i++)
+{
+   printf("%d\n", i);
+}
+
 }

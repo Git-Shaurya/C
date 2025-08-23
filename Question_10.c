@@ -1,33 +1,14 @@
-/*Write a Program to give grades to a student
-marks < 30 is C
-30 <= marks < 70 is B
-70 <= marks < 90 is A
-90 <= marks <= 100 is A+*/
-
+//Write a program to check if a number is natural or not.
 #include<stdio.h>
-int main () {
-    int marks;
-    printf("Enter marks (1 to 100):");
-    scanf("%d", &marks);
+int main() {
 
-    if ( marks >= 0 && marks < 30 )
+    int num;
+    printf("Enter number :");
+    scanf("%d", &num);
+    
+    if (num >= 1)
     {
-        printf("C");
+       printf("Your number is natural");
     }
-else if (marks >= 30 && marks < 70 )
-{
-    printf("B");
-}
-else if (marks <= 70 && marks <90)
-{
-   printf("A");
-}
-else if (marks <= 90 && marks <= 100)
-{
-    printf("A+");
-}
-
-
-
-
+    else (printf("Your number is not natural"));
 }

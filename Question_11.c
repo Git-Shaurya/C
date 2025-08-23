@@ -1,21 +1,10 @@
-//Write a code to detect if the entered charachter is Capital or small.
+//Print numbers from 0 to 10
+
 #include<stdio.h>
-int main () {
-    char ch;
-    printf("Enter charachter :");
-    scanf("%c", &ch);
+int main() {
 
-   if ( ch >= 'A' && ch <= 'Z' ){
-    printf("The aplhabet is Upper Case");
-   }
+    for (int i = 0; i <= 10; i = i + 1) {
 
-   else if ( ch >= 'a' && ch <= 'z') {
-    printf("The aplhabet is Small Case");
+        printf("%d\n", i);
     }
-
-    else { printf("Not valid");
-    }
-    
-
-
 }
