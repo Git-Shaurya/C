@@ -5,7 +5,7 @@ int main () {
     while ( i <= 5)
     {
        printf("Hello World");
-       i++ // here initialisation happens earlier , then condtion happens and then at last updation happens.
+       i++; // here initialisation happens earlier , then condtion happens and then at last updation happens.
     }
 
     
