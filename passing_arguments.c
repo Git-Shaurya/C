@@ -19,3 +19,7 @@ int sum(int a , int b) {
 
    return a + b;
 }
+
+
+// pass by value = here we just pass the value of an variable from main function to our function .
+// pass by refference = here we give adress of our variable to our function from main function. 
