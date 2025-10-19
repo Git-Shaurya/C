@@ -8,7 +8,11 @@ int main() {
     printf("%u\n", ptr);// here the value that will be printed will be before increment 
     ptr++;//increment happens that is 4 bytes of memory gets added.
 
-    printf("%u", ptr); // this will print the added memory adress.
+    printf("incremented adress :%u\n", ptr); // this will print the added memory adress.
+
+    ptr--;
+    printf("decremented adress :%u\n", ptr); // this will print the subtracted  memory adress.
+
 
 
 
