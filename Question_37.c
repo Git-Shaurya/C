@@ -11,4 +11,4 @@ int main (){
     printf("Total price of 1st product is : %f\n", arrprice[0] + (arrprice[0] *0.18));
     printf("Total price of 2nd product is : %f\n", arrprice[1] + (arrprice[1] *0.18));
     printf("Total price of 3rd product is : %f\n", arrprice[2] + (arrprice[2] *0.18));
-}
+}  
