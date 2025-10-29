@@ -1,0 +1,10 @@
+# Ignore compiled executables
+*.exe
+git rm --cached -r *.exe
+
+git commit -m "Remove compiled .exe files and update .gitignore"
+git push
+
+
+
+
